@@ -33,8 +33,7 @@ table {
   border-collapse: collapse;
 }
 tr { 
-  border: solid;
-  border-width: 1px solid #cccccc
+  border: solid; 1px #cccccc
 } tr:first-child {
   border-top: none;
 }
@@ -416,16 +415,7 @@ th {
 <div class="gem-c-breadcrumbs govuk-breadcrumbs govuk-breadcrumbs--collapse-on-mobile" data-module="gem-track-click">
   <ol class="govuk-breadcrumbs__list">
         <li class="govuk-breadcrumbs__list-item">
-          <a data-track-category="homeLinkClicked" data-track-action="homeBreadcrumb" data-track-label="" data-track-options="{}" class="govuk-breadcrumbs__link" href="/">Home</a>
-        </li>
-        <li class="govuk-breadcrumbs__list-item">
-          <a data-track-category="breadcrumbClicked" data-track-action="2" data-track-label="/education" data-track-options='{"dimension28":"4","dimension29":"Education, training and skills"}' class="govuk-breadcrumbs__link" href="/education">Education, training and skills</a>
-        </li>
-        <li class="govuk-breadcrumbs__list-item">
-          <a data-track-category="breadcrumbClicked" data-track-action="3" data-track-label="/education/further-and-higher-education-skills-and-vocational-training" data-track-options='{"dimension28":"4","dimension29":"Further and higher education, skills and vocational training"}' class="govuk-breadcrumbs__link" href="/education/further-and-higher-education-skills-and-vocational-training">Further and higher education, skills and vocational training</a>
-        </li>
-        <li class="govuk-breadcrumbs__list-item">
-          <a data-track-category="breadcrumbClicked" data-track-action="4" data-track-label="/government/publications/find-a-skills-bootcamp-example-3" data-track-options='{"dimension28":"4","dimension29":"Find a Skills Bootcamp (example 3)"}' class="govuk-breadcrumbs__link" href="/government/publications/find-a-skills-bootcamp-example-3">Find a Skills Bootcamp (example 3)</a>
+          <a data-track-category="breadcrumbClicked" data-track-action="4" data-track-label="/government/publications/find-a-skills-bootcamp-example-3" data-track-options='{"dimension28":"1","dimension29":"Find a Skills Bootcamp (example 3)"}' class="govuk-breadcrumbs__link" rel=external href="https://catlawsondfe.github.io/SkillsBootcamp-example3">Find a Skills Bootcamp (example 3)</a>
         </li>
   </ol>
 </div>
@@ -512,13 +502,12 @@ th {
     </tr>
   </thead>
   <tbody>
----------
 
     <tr>
       <td><a rel="external" href="https://croydon.ac.uk/skills-bootcamp/" class="govuk-link">Croydon College</a></td>
       <td>Croydon, Hackney</td>
     </tr>
----------
+
     <tr>
       <td><a rel="external" href="https://www.learningcurvegroup.co.uk/landing/construction-skills-bootcamps" class="govuk-link">Learning Curve Group</a></td>
       <td>online</td>
@@ -3902,36 +3891,11 @@ th {
   "@context": "http://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "name": "Home",
-        "@id": "https://www.gov.uk/"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "item": {
-        "name": "Education, training and skills",
-        "@id": "https://www.gov.uk/education"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "item": {
-        "name": "Further and higher education, skills and vocational training",
-        "@id": "https://www.gov.uk/education/further-and-higher-education-skills-and-vocational-training"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "item": {
         "name": "Find a Skills Bootcamp (example 3)",
-        "@id": "https://www.gov.uk/government/publications/find-a-skills-bootcamp-example-3"
+        "@id": "https://catlawsondfe.github.io/SkillsBootcamp-example3"
       }
     }
   ]
